@@ -23,10 +23,18 @@
     height: 78VH;
     background: rgb(31,23,170);
     background: linear-gradient(149deg, rgba(31,23,170,1) 0%, rgba(18,18,150,1) 0%, rgba(14,57,171,1) 0%, rgba(0,212,255,1) 100%);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
+.center-left{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    gap: 6vh;
+    margin-left: 7vw;
+}
 .bottom-part{
     position:relative;
     background: rgb(5,12,22);
@@ -44,20 +52,16 @@
     font-size: 3em;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.404);
     letter-spacing: .8;
-    transform: translate(2em, -1em);
-   
+    
 }
 .center-part button{
     height: 2.5em;
     width: 12em;
-    position:relative;
     background-color: rgb(44, 157, 223);
     color: #fff;
     border: none;
     font-size: 1em;
-    top: 12vh;
-    left: -17vw;
-    cursor:context-menu;
+    
 }
 
 .logo img{
@@ -88,7 +92,7 @@
 }
 
 .center-part img{
-    width: 50vw;
+    width: 55vw;
 }
 #first{
     background-color:#22a5e2;
@@ -124,8 +128,8 @@
 .bottom-box img{
     position:relative;
     width: 1.2em;
-    top: -3vh;
-    left: 26vw;
+    top: -1.2em;
+    left: 22.5em;
  }
 
  .box-content{
@@ -165,8 +169,8 @@
   .bottom-box:hover> img{
     position:relative;
     transform: rotate(180deg);
-    top: -3vh;
-    left: 26vw;
+    top: -1.2em;
+    left: 22.5em;
 
   }
 
